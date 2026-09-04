@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
-import HeroBanner from '@/components/HeroBanner';
-import ContentRow from '@/components/ContentRow';
+import HeroBanner from '../components/HeroBanner';
+import ContentRow from '../components/ContentRow';
 import Player from '../components/Player';
 import SearchModule from '../components/SearchModule';
 import Sidebar from '../components/Sidebar';
