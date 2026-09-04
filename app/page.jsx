@@ -1,11 +1,11 @@
 'use client';
 import { useEffect, useState } from 'react';
-import Sidebar from '@/components/Sidebar';
 import HeroBanner from '@/components/HeroBanner';
 import ContentRow from '@/components/ContentRow';
-import Player from '@/components/Player';
-import SearchModule from '@/components/SearchModule';
-import { supabase } from '@/lib/supabase';
+import Player from '../components/Player';
+import SearchModule from '../components/SearchModule';
+import Sidebar from '../components/Sidebar';
+import { supabase } from '../lib/supabase';
 
 export default function HomePage() {
   const [activeCategory, setActiveCategory] = useState('home');
